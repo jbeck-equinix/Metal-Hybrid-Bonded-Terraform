@@ -14,8 +14,6 @@ provider "metal" {
 locals {
     auth_token = "your_auth_token"
     project_id = "your_project_id"
-    connection_id = "your_dedicated_fabric_connection_id"
-    port_id = "your_dedicated_fabric_port_id"
 }
 
 #user-data script
