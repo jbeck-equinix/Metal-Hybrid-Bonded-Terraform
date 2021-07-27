@@ -43,7 +43,7 @@ resource "metal_device" "HB-Demo" {
 #set metal instance to hybrid bonded network mode
 resource "metal_device_network_type" "HB-Demo" {
   device_id = metal_device.HB-Demo.id
-  type = "hybrid"
+  type = "hybrid-bonded"
 }
 
 #attach instance to metal vlan1
